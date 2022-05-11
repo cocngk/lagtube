@@ -1,0 +1,58 @@
+html, body {margin: 0; height: 100%; overflow: hidden; overflow-x: hidden;}
+body {
+  background-image: url("https://cdn.glitch.global/816743fa-38ac-4a3f-88f1-2b1d2ba55aa9/7HHu.gif?v=1649350345092");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+#player {
+  border-radius: 15px;
+  position:fixed;
+    top: 50%;
+    left: 50%;
+    width:44vw;
+    height:32vw;
+    margin-top: -16vw; /*set to a negative number 1/2 of your height*/
+    margin-left: -22vw; /*set to a negative number 1/2 of your width*/
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+svg:hover {
+  opacity: 0.5;
+}
+#lite {
+  position: absolute;
+  z-index: 2;
+  bottom: 2vw;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ytnewvid {
+  border: none;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  text-align: center;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ytnewvid:hover {
+  background-color: red;
+}
